@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for scripts\services\numeralConversion.js</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../prettify.css">
+    <link rel="stylesheet" href="../../base.css">
+    <style type='text/css'>
+        div.coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class="header low">
+    <h1>Code coverage report for <span class="entity">scripts\services\numeralConversion.js</span></h1>
+    <h2>
+        Statements: <span class="metric">3.57% <small>(1 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 8)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 7)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">3.57% <small>(1 / 28)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">scripts/services/</a> &#187; numeralConversion.js</div>
+</div>
+<div class="body">
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&nbsp;
+'use strict';
+angular.module('testApp').factory('numeralConversion', <span class="fstat-no" title="function not covered" >function ($rootScope, constants)</span>
+{
+<span class="cstat-no" title="statement not covered" >    var romanValidator = "^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$";</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    var if_valid = <span class="fstat-no" title="function not covered" >function(inputArray){</span></span>
+<span class="cstat-no" title="statement not covered" >        var result = 0;</span>
+<span class="cstat-no" title="statement not covered" >        if(inputArray.match(romanValidator)){</span>
+<span class="cstat-no" title="statement not covered" >            result = 1;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        return result;</span>
+    } 
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    var romanToNumber = <span class="fstat-no" title="function not covered" >function(inputArray){</span></span>
+<span class="cstat-no" title="statement not covered" >        var splittedArray = _.toArray(inputArray);       </span>
+<span class="cstat-no" title="statement not covered" >        var convertedIntoNumbers = _.map(splittedArray,<span class="fstat-no" title="function not covered" >function(letter){</span></span>
+<span class="cstat-no" title="statement not covered" >            return constants.romanValue[letter];</span>
+        });
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var j=-1;</span>
+<span class="cstat-no" title="statement not covered" >        var total = 0;</span>
+<span class="cstat-no" title="statement not covered" >        var calculatedArabicValue = _.map(convertedIntoNumbers,<span class="fstat-no" title="function not covered" >function(num,i){</span></span>
+<span class="cstat-no" title="statement not covered" >            if(i!==j){</span>
+<span class="cstat-no" title="statement not covered" >                if(convertedIntoNumbers[i]&lt;convertedIntoNumbers[i+1]){</span>
+<span class="cstat-no" title="statement not covered" >                    j= i+1;</span>
+<span class="cstat-no" title="statement not covered" >                    total = total + (convertedIntoNumbers[i+1] - convertedIntoNumbers[i])</span>
+                }else{
+<span class="cstat-no" title="statement not covered" >                   total = total + convertedIntoNumbers[i];</span>
+                }
+            }
+<span class="cstat-no" title="statement not covered" >            return total;</span>
+        })[splittedArray.length-1];
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        return calculatedArabicValue;</span>
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    var commandParser = <span class="fstat-no" title="function not covered" >function(inputArray){</span></span>
+<span class="cstat-no" title="statement not covered" >        var output = _.map(inputArray,<span class="fstat-no" title="function not covered" >function(input){</span></span>
+<span class="cstat-no" title="statement not covered" >            if(if_valid(input))</span>
+<span class="cstat-no" title="statement not covered" >                return romanToNumber(input)</span>
+            else
+<span class="cstat-no" title="statement not covered" >                return 'Wrong input';</span>
+        })
+<span class="cstat-no" title="statement not covered" >        return output;</span>
+    }
+   
+<span class="cstat-no" title="statement not covered" >    return {</span>
+        commandParser: commandParser
+    };
+});
+&nbsp;</pre></td></tr>
+</table></pre>
+
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Mon Sep 07 2015 20:41:51 GMT+0530 (India Standard Time)</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				    <h3 class="panel-title">Kindly enter your command one by one in the below box</h3>
+				</div>
+				<div class="panel-body">
+					<form class="input-form" name="myForm">
+					  	<center>
+						  	<label>Enter here:
+						           <input type="text" name="input" ng-model="user.text"
+						       required>
+						  </label>
+						</center>
+						<center>
+						  <div role="alert">
+						    <span class="error" ng-show="myForm.input.$error.required && !myForm.$pristine">
+						      Required!</span>
+						  </div>
+						</center>
+					  <center>
+					  	<input type="submit" ng-click="update(user.text)" value="Save" ng-disabled="myForm.$invalid"/>
+					  </center>
+					</form>
+				</div>
+			</div>				  
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				    <h3 class="panel-title">Commands you entered</h3>
+				</div>
+				<div class="panel-body">
+					<div ng-repeat="value in enteredCommands.text track by $index">
+						<tt>{{$index+1}}) {{value}}</tt><br/>
+						<!-- <tt>myForm.input.$valid = {{myForm.input.$valid}}</tt><br/>
+						<tt>myForm.input.$error = {{myForm.input.$error}}</tt><br/>
+						<tt>myForm.$valid = {{myForm.$valid}}</tt><br/>
+						<tt>{{myForm.invalid}}</tt></br>
+						<tt>myForm.$error.required = {{!!myForm.$error.required}}</tt><br/> -->
+					</div>
+					<div>
+						<input type="submit" ng-click="generateOutput(enteredCommands.text)" value="Generate Output"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				    <h3 class="panel-title">Generated output</h3>
+				</div>
+				<div class="panel-body">
+					<div ng-hide="arabicOutput">Here result is shown!!</div>
+					<div ng-repeat="value in arabicOutput track by $index">
+						<tt>{{$index+1}}) {{value}}</tt><br/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

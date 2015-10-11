@@ -1,0 +1,13 @@
+
+.input-form {
+  transition:0.5s linear all;
+  background: white;
+  color:black;
+}
+.input-form.ng-invalid {
+  background: #FAFBAC;
+  color:black;
+}
+.error{
+	color: red;
+}

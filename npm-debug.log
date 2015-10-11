@@ -1,0 +1,379 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'g',
+1 verbose cli   'yo',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'bower' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ '-', null ]
+6 verbose cache add name=undefined spec="-" args=["-",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '-',
+7 verbose parsed url   path: '-',
+7 verbose parsed url   href: '-' }
+8 verbose cache add [ 'g', null ]
+9 verbose cache add name=undefined spec="g" args=["g",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'g',
+10 verbose parsed url   path: 'g',
+10 verbose parsed url   href: 'g' }
+11 verbose cache add [ 'yo', null ]
+12 verbose cache add name=undefined spec="yo" args=["yo",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'yo',
+13 verbose parsed url   path: 'yo',
+13 verbose parsed url   href: 'yo' }
+14 verbose cache add [ 'grunt-cli', null ]
+15 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'grunt-cli',
+16 verbose parsed url   path: 'grunt-cli',
+16 verbose parsed url   href: 'grunt-cli' }
+17 verbose cache add [ 'bower', null ]
+18 verbose cache add name=undefined spec="bower" args=["bower",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'bower',
+19 verbose parsed url   path: 'bower',
+19 verbose parsed url   href: 'bower' }
+20 silly lockFile 3bc15c8a- -
+21 verbose lock - C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\3bc15c8a-.lock
+22 silly lockFile 54fd1711-g g
+23 verbose lock g C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\54fd1711-g.lock
+24 silly lockFile c41975d1-yo yo
+25 verbose lock yo C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\c41975d1-yo.lock
+26 silly lockFile 671ef8ac-grunt-cli grunt-cli
+27 verbose lock grunt-cli C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\671ef8ac-grunt-cli.lock
+28 silly lockFile 206e3ce5-bower bower
+29 verbose lock bower C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\206e3ce5-bower.lock
+30 silly lockFile 3bc15c8a- -
+31 silly lockFile 3bc15c8a- -
+32 silly lockFile 54fd1711-g g
+33 silly lockFile 54fd1711-g g
+34 silly lockFile c41975d1-yo yo
+35 silly lockFile c41975d1-yo yo
+36 silly lockFile 671ef8ac-grunt-cli grunt-cli
+37 silly lockFile 671ef8ac-grunt-cli grunt-cli
+38 silly lockFile 206e3ce5-bower bower
+39 silly lockFile 206e3ce5-bower bower
+40 verbose addNamed [ '-', '' ]
+41 verbose addNamed [ null, '*' ]
+42 silly lockFile c75fe0d4- -@
+43 verbose lock -@ C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\c75fe0d4-.lock
+44 verbose addNamed [ 'g', '' ]
+45 verbose addNamed [ null, '*' ]
+46 silly lockFile 8b047e1f-g g@
+47 verbose lock g@ C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\8b047e1f-g.lock
+48 verbose addNamed [ 'yo', '' ]
+49 verbose addNamed [ null, '*' ]
+50 silly lockFile d937c28e-yo yo@
+51 verbose lock yo@ C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\d937c28e-yo.lock
+52 verbose addNamed [ 'bower', '' ]
+53 verbose addNamed [ null, '*' ]
+54 silly lockFile 1240aab1-bower bower@
+55 verbose lock bower@ C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\1240aab1-bower.lock
+56 verbose addNamed [ 'grunt-cli', '' ]
+57 verbose addNamed [ null, '*' ]
+58 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+59 verbose lock grunt-cli@ C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\d63f3d0b-grunt-cli.lock
+60 silly addNameRange { name: '-', range: '*', hasData: false }
+61 silly addNameRange { name: 'g', range: '*', hasData: false }
+62 silly addNameRange { name: 'yo', range: '*', hasData: false }
+63 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+64 silly addNameRange { name: 'bower', range: '*', hasData: false }
+65 verbose request where is /-
+66 verbose request registry https://registry.npmjs.org/
+67 verbose request id ce2070a1fba6f852
+68 verbose url raw /-
+69 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+70 verbose url resolved https://registry.npmjs.org/-
+71 verbose request where is https://registry.npmjs.org/-
+72 info trying registry request attempt 1 at 13:05:08
+73 http GET https://registry.npmjs.org/-
+74 verbose request where is /g
+75 verbose request registry https://registry.npmjs.org/
+76 verbose url raw /g
+77 verbose url resolving [ 'https://registry.npmjs.org/', './g' ]
+78 verbose url resolved https://registry.npmjs.org/g
+79 verbose request where is https://registry.npmjs.org/g
+80 info trying registry request attempt 1 at 13:05:08
+81 verbose etag "8AYIUDSUHLGXZT7X52XKA2O0S"
+82 http GET https://registry.npmjs.org/g
+83 verbose request where is /yo
+84 verbose request registry https://registry.npmjs.org/
+85 verbose url raw /yo
+86 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+87 verbose url resolved https://registry.npmjs.org/yo
+88 verbose request where is https://registry.npmjs.org/yo
+89 info trying registry request attempt 1 at 13:05:08
+90 verbose etag "9C9SJE76GJR8CIF5C6ZUTKJY4"
+91 http GET https://registry.npmjs.org/yo
+92 verbose request where is /grunt-cli
+93 verbose request registry https://registry.npmjs.org/
+94 verbose url raw /grunt-cli
+95 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+96 verbose url resolved https://registry.npmjs.org/grunt-cli
+97 verbose request where is https://registry.npmjs.org/grunt-cli
+98 info trying registry request attempt 1 at 13:05:08
+99 verbose etag "AMF0P9NQ2QDM978NNEB4GQAUH"
+100 http GET https://registry.npmjs.org/grunt-cli
+101 verbose request where is /bower
+102 verbose request registry https://registry.npmjs.org/
+103 verbose url raw /bower
+104 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+105 verbose url resolved https://registry.npmjs.org/bower
+106 verbose request where is https://registry.npmjs.org/bower
+107 info trying registry request attempt 1 at 13:05:08
+108 verbose etag "6XMLJ8NYMS570KMJHSJ362NCS"
+109 http GET https://registry.npmjs.org/bower
+110 http 304 https://registry.npmjs.org/g
+111 silly registry.get cb [ 304,
+111 silly registry.get   { date: 'Sat, 08 Aug 2015 07:35:08 GMT',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     'cache-control': 'max-age=60',
+111 silly registry.get     etag: '"8AYIUDSUHLGXZT7X52XKA2O0S"',
+111 silly registry.get     age: '40',
+111 silly registry.get     connection: 'keep-alive',
+111 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+111 silly registry.get     'x-cache': 'HIT',
+111 silly registry.get     'x-cache-hits': '3',
+111 silly registry.get     'x-timer': 'S1439019308.542984,VS0,VE0',
+111 silly registry.get     vary: 'Accept' } ]
+112 verbose etag https://registry.npmjs.org/g from cache
+113 silly addNameRange number 2 { name: 'g', range: '*', hasData: true }
+114 silly addNameRange versions [ 'g',
+114 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '2.0.0' ] ]
+115 verbose addNamed [ 'g', '2.0.0' ]
+116 verbose addNamed [ '2.0.0', '2.0.0' ]
+117 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+118 verbose lock g@2.0.0 C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\228a2625-g-2-0-0.lock
+119 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+120 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+121 silly lockFile 8b047e1f-g g@
+122 silly lockFile 8b047e1f-g g@
+123 http 304 https://registry.npmjs.org/grunt-cli
+124 silly registry.get cb [ 304,
+124 silly registry.get   { date: 'Sat, 08 Aug 2015 07:35:08 GMT',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     etag: '"AMF0P9NQ2QDM978NNEB4GQAUH"',
+124 silly registry.get     age: '46',
+124 silly registry.get     connection: 'keep-alive',
+124 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '4',
+124 silly registry.get     'x-timer': 'S1439019308.554767,VS0,VE0',
+124 silly registry.get     vary: 'Accept' } ]
+125 verbose etag https://registry.npmjs.org/grunt-cli from cache
+126 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+127 silly addNameRange versions [ 'grunt-cli',
+127 silly addNameRange   [ '0.1.0',
+127 silly addNameRange     '0.1.1',
+127 silly addNameRange     '0.1.2',
+127 silly addNameRange     '0.1.3',
+127 silly addNameRange     '0.1.4',
+127 silly addNameRange     '0.1.5',
+127 silly addNameRange     '0.1.6',
+127 silly addNameRange     '0.1.7',
+127 silly addNameRange     '0.1.8',
+127 silly addNameRange     '0.1.9',
+127 silly addNameRange     '0.1.10',
+127 silly addNameRange     '0.1.11',
+127 silly addNameRange     '0.1.12',
+127 silly addNameRange     '0.1.13' ] ]
+128 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+129 verbose addNamed [ '0.1.13', '0.1.13' ]
+130 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+131 verbose lock grunt-cli@0.1.13 C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\28997503-grunt-cli-0-1-13.lock
+132 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+133 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+134 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+135 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+136 http 304 https://registry.npmjs.org/yo
+137 silly registry.get cb [ 304,
+137 silly registry.get   { date: 'Sat, 08 Aug 2015 07:35:08 GMT',
+137 silly registry.get     via: '1.1 varnish',
+137 silly registry.get     'cache-control': 'max-age=60',
+137 silly registry.get     etag: '"9C9SJE76GJR8CIF5C6ZUTKJY4"',
+137 silly registry.get     age: '36',
+137 silly registry.get     connection: 'keep-alive',
+137 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+137 silly registry.get     'x-cache': 'HIT',
+137 silly registry.get     'x-cache-hits': '1',
+137 silly registry.get     'x-timer': 'S1439019308.565791,VS0,VE0',
+137 silly registry.get     vary: 'Accept' } ]
+138 verbose etag https://registry.npmjs.org/yo from cache
+139 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+140 silly addNameRange versions [ 'yo',
+140 silly addNameRange   [ '1.1.0',
+140 silly addNameRange     '1.1.1',
+140 silly addNameRange     '1.1.2',
+140 silly addNameRange     '1.2.0',
+140 silly addNameRange     '1.2.1',
+140 silly addNameRange     '1.3.0',
+140 silly addNameRange     '1.3.2',
+140 silly addNameRange     '1.3.3',
+140 silly addNameRange     '1.4.6',
+140 silly addNameRange     '1.4.7' ] ]
+141 verbose addNamed [ 'yo', '1.4.7' ]
+142 verbose addNamed [ '1.4.7', '1.4.7' ]
+143 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+144 verbose lock yo@1.4.7 C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\22bae6b4-yo-1-4-7.lock
+145 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+146 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+147 silly lockFile d937c28e-yo yo@
+148 silly lockFile d937c28e-yo yo@
+149 http 404 https://registry.npmjs.org/-
+150 silly registry.get cb [ 404,
+150 silly registry.get   { 'content-type': 'application/json',
+150 silly registry.get     'cache-control': 'max-age=0',
+150 silly registry.get     'content-length': '57',
+150 silly registry.get     'accept-ranges': 'bytes',
+150 silly registry.get     date: 'Sat, 08 Aug 2015 07:35:08 GMT',
+150 silly registry.get     via: '1.1 varnish',
+150 silly registry.get     connection: 'keep-alive',
+150 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+150 silly registry.get     'x-cache': 'MISS',
+150 silly registry.get     'x-cache-hits': '0',
+150 silly registry.get     'x-timer': 'S1439019308.524793,VS0,VE235' } ]
+151 silly lockFile c75fe0d4- -@
+152 silly lockFile c75fe0d4- -@
+153 http 304 https://registry.npmjs.org/bower
+154 silly registry.get cb [ 304,
+154 silly registry.get   { date: 'Sat, 08 Aug 2015 07:35:09 GMT',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     'cache-control': 'max-age=60',
+154 silly registry.get     etag: '"6XMLJ8NYMS570KMJHSJ362NCS"',
+154 silly registry.get     age: '0',
+154 silly registry.get     connection: 'keep-alive',
+154 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+154 silly registry.get     'x-cache': 'HIT',
+154 silly registry.get     'x-cache-hits': '1',
+154 silly registry.get     'x-timer': 'S1439019309.746455,VS0,VE984',
+154 silly registry.get     vary: 'Accept' } ]
+155 verbose etag https://registry.npmjs.org/bower from cache
+156 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+157 silly addNameRange versions [ 'bower',
+157 silly addNameRange   [ '0.1.0',
+157 silly addNameRange     '0.1.2',
+157 silly addNameRange     '0.1.3',
+157 silly addNameRange     '0.2.0',
+157 silly addNameRange     '0.3.0',
+157 silly addNameRange     '0.3.1',
+157 silly addNameRange     '0.3.2',
+157 silly addNameRange     '0.4.0',
+157 silly addNameRange     '0.5.0',
+157 silly addNameRange     '0.5.1',
+157 silly addNameRange     '0.6.0',
+157 silly addNameRange     '0.6.1',
+157 silly addNameRange     '0.6.2',
+157 silly addNameRange     '0.6.3',
+157 silly addNameRange     '0.6.4',
+157 silly addNameRange     '0.6.5',
+157 silly addNameRange     '0.6.6',
+157 silly addNameRange     '0.6.7',
+157 silly addNameRange     '0.6.8',
+157 silly addNameRange     '0.7.0',
+157 silly addNameRange     '0.7.1',
+157 silly addNameRange     '0.8.0',
+157 silly addNameRange     '0.8.1',
+157 silly addNameRange     '0.8.2',
+157 silly addNameRange     '0.8.3',
+157 silly addNameRange     '0.8.4',
+157 silly addNameRange     '0.8.5',
+157 silly addNameRange     '0.8.6',
+157 silly addNameRange     '0.9.0',
+157 silly addNameRange     '0.9.1',
+157 silly addNameRange     '0.9.2',
+157 silly addNameRange     '0.10.0',
+157 silly addNameRange     '1.0.0',
+157 silly addNameRange     '1.0.1',
+157 silly addNameRange     '1.0.2',
+157 silly addNameRange     '1.0.3',
+157 silly addNameRange     '1.1.0',
+157 silly addNameRange     '1.1.1',
+157 silly addNameRange     '1.1.2',
+157 silly addNameRange     '1.2.0',
+157 silly addNameRange     '1.2.1',
+157 silly addNameRange     '1.2.2',
+157 silly addNameRange     '1.2.3',
+157 silly addNameRange     '1.2.4',
+157 silly addNameRange     '1.2.5',
+157 silly addNameRange     '1.2.6',
+157 silly addNameRange     '1.2.7',
+157 silly addNameRange     '1.2.8',
+157 silly addNameRange     '1.3.0',
+157 silly addNameRange     '1.3.1',
+157 silly addNameRange     '1.3.2',
+157 silly addNameRange     '1.3.3',
+157 silly addNameRange     '1.3.4',
+157 silly addNameRange     '1.3.5',
+157 silly addNameRange     '1.3.6',
+157 silly addNameRange     '1.3.7',
+157 silly addNameRange     '1.3.8',
+157 silly addNameRange     '1.3.9',
+157 silly addNameRange     '1.3.10',
+157 silly addNameRange     '1.3.11',
+157 silly addNameRange     '1.3.12',
+157 silly addNameRange     '1.4.0',
+157 silly addNameRange     '1.4.1' ] ]
+158 verbose addNamed [ 'bower', '1.4.1' ]
+159 verbose addNamed [ '1.4.1', '1.4.1' ]
+160 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+161 verbose lock bower@1.4.1 C:\Users\Kritika Saxena-GGN\AppData\Roaming\npm-cache\185f46c0-bower-1-4-1.lock
+162 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+163 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+164 silly lockFile 1240aab1-bower bower@
+165 silly lockFile 1240aab1-bower bower@
+166 error 404 Not Found
+167 error System Windows_NT 6.1.7601
+168 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-" "g" "yo" "grunt-cli" "bower"
+169 error cwd C:\omsairam
+170 error node -v v0.10.36
+171 error npm -v 1.4.28
+172 error code E404
+173 verbose exit [ 1, true ]
